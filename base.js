@@ -101,8 +101,6 @@ async function init() {
         co2Data.push(generateRandomDataPoint());
     }
 
-    console.log(co2Data);
-
     // Function to convert latitude and longitude to Cartesian coordinates
     function latLonToCartesian(lat, lon, radius) {
         const theta = ((lat + 90) * Math.PI) / 180;
