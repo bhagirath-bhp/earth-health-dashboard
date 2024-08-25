@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Data Overlay -->
+    <div class="overlay">
+      <h1>Earth Health Dashboard</h1>
+      <p>CO2 Levels: <span class="co2-level">N/A</span></p>
+      <p>Region: <span class="region">N/A</span></p>
+    </div>
+
+    <!-- Graphs -->
+    <div class="graphs">
+      <canvas class="co2Graph" width="400" height="200"></canvas>
+      <canvas class="temperatureGraph" width="400" height="200"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chart.js/4.3.0/chart.min.js"></script>
+    <script src="./base.js"></script>
+    <script src="./charts.js"></script>
+  </body>
+</html>

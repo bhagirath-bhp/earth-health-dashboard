@@ -1,0 +1,23 @@
+{
+    "SPHERE": {
+      "OUTER_RADIUS": 2,
+      "INNER_RADIUS": 1.5,
+      "WIDTH_SEGMENTS": 64,
+      "HEIGHT_SEGMENTS": 32
+    },
+    "CO2": {
+      "MIN_LEVEL": 300,
+      "MAX_LEVEL": 500,
+      "DEFAULT_COLOR": "#FFFFFF"
+    },
+    "VERTEX": {
+      "SIZE": 0.005
+    },
+    "CAMERA": {
+      "FOV": 75,
+      "NEAR": 0.1,
+      "FAR": 1000,
+      "POSITION_Z": 5
+    }
+  }
+  
